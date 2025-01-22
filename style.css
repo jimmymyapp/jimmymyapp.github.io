@@ -217,6 +217,42 @@ body {
     width: 50%; 
 } 
 
+/* User Guide section styles */
+.ug { 
+    /*display: flex; */
+    /*align-items: center; */
+    /*background-image: linear-gradient(45deg, #363D73, #2794B3); */
+    justify-content: space-between; 
+    width: 100%; 
+} 
+
+.ug .ug-title { 
+    color: #fff; 
+    padding: 2rem 2rem 2rem 2rem; 
+} 
+
+.ug .ug-main { 
+    color: #fff; 
+    background-image: linear-gradient(45deg, #363D73, #2794B3);
+    padding: 2rem 2rem 2rem 2rem; 
+} 
+
+.ug .ug-text { 
+    /*color: #fff; */
+    background-image: linear-gradient(45deg, #098e92, #b8deec);
+    padding: 2rem 2rem 2rem 2rem; 
+} 
+
+.ug .ug-image img { 
+    /*height: 200px; */
+    /*width: 450px; */
+    padding: 5rem 5rem 5rem 1rem; 
+    max-width:200px;
+    max-height:200px;
+    width:auto;
+    height:auto;
+} 
+
 /* Footer Styles */
 .footer { 
     background-color: #000; 
@@ -371,6 +407,7 @@ div.panel {
   padding: 0 18px;
   display: none;
   background-color: white;
+	padding: 1rem 1rem 1rem 1rem; 
 }
 div.panel.show {
   display: block;
